@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Manrope', sans-serif;
+}
+
+.root {
+  display: flex;
+  place-content: center flex-start;
+  align-items: center;
+  background-color: rgb(19, 19, 19);
+  flex-flow: column nowrap;
+  gap: 10px;
+  height: 100vh;
+  overflow: auto;
+  padding: 0px;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  place-content: center flex-start;
+  align-items: center;
+  flex: 0 0 auto;
+  flex-flow: column nowrap;
+  gap: 10px;
+  height: fit-content;
+  max-width: 975px;
+  overflow: auto;
+  padding: 120px 50px 20px;
+  position: relative;
+  width: auto;
+  gap: 32px;
+}
+
+.header {    
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  color: #FFF
+}
+
+.header-title {
+  display: flex;
+  gap: 12px;
+}
+
+.header-title h1 {
+  width: 100%;
+  font-weight: 700;
+  font-size: 72px;
+  letter-spacing: -4px;
+  line-height: 1.2em;
+  text-align: center;
+  margin: 0;
+}
+
+.header-subtitle h2 {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4em;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.view-metadata {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.metadata {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+}
+
+.metadata-text {
+  max-width: 400px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+
+.input {
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  border-radius: 16px;
+  padding: 14px 30px;
+  width: 300px;
+
+  background-color: rgb(19, 19, 19);
+  color: rgba(255, 255, 255, 0.75);
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.4em;
+}
+
+.claim-button {
+  border: 1px solid rgba(255, 255, 255, 0.75);
+  border-radius: 16px;
+  padding: 10px 30px;
+  cursor: pointer;
+
+  background-color: rgb(19, 19, 19);
+  color: rgba(255, 255, 255, 0.75);
+  font-family: 'Manrope', sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.4em;
+}
